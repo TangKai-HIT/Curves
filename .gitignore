@@ -1,0 +1,4 @@
+*.asv
+*.autosave
+bin/
+slprj/
