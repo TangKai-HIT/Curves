@@ -1,5 +1,5 @@
 function pts = bsplineSurfaceEval(p, q, u_vec, v_vec, control_pts, u, v)
-%BSPLINESURFACEEVAL b-sline surface evaluation at specified (u, v) point sets
+%BSPLINESURFACEEVAL b-sline surface evaluation at specified (u, v) point sets using tensor product
 %   inputs:
 %       p, q: degree in u-direction, v-direction    
 %       control_pts: n+1 X m+1 X dim tensor (u, v, dim)
