@@ -8,4 +8,4 @@ function plotBezierSurface(ax, p, q, control_pts, u_range, v_range)
 pts = bezierSurfaceEval(p, q, control_pts, u_range, v_range);
 
 surf(ax, pts(:, :, 1), pts(:, :, 2), pts(:, :, 3));
-
+axis equal;

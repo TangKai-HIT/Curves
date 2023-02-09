@@ -9,4 +9,4 @@ function plotBSplineSurface(ax, p, q, u_vec, v_vec, control_pts, u_range, v_rang
 pts = bsplineSurfaceEval(p, q, u_vec, v_vec, control_pts, u_range, v_range);
 
 surf(ax, pts(:, :, 1), pts(:, :, 2), pts(:, :, 3));
-
+axis equal;
