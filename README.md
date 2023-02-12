@@ -7,5 +7,5 @@ Some basic algorithms for commonly-used curves and surfaces in terms of construc
 - `NURBs`  
 - `Bezier`
 
-**Reference**
+**Reference:**  
 [1] Biagiotti, Luigi, and Claudio Melchiorri. Trajectory planning for automatic machines and robots. Springer Science & Business Media, 2008.
