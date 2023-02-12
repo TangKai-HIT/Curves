@@ -1,4 +1,4 @@
-# Curves
+# Curves and Surfaces algorithms
 Some basic algorithms for commonly-used curves and surfaces in terms of construction, interpolation and fitting. (In Matlab)  
 
 **Curves types**:
