@@ -1,5 +1,5 @@
 %demo1: generate a Bezier controlled surface
-addpath(genpath('../'));
+addpath(genpath('../../'));
 
 %% init params 
 surface_ctrl_pts = {[0, 0, 15], [0, 50, 65], [0, 102, 2.3], [0, 150, 15];
