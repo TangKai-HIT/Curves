@@ -4,7 +4,7 @@ function b = bezierEval(m, u, control_pts)
 %       control_pts: m X dim
 %       u: 1 X N or N X 1
 
-b = zeros(length(u), 1);
+b = zeros(length(u), size(control_pts, 2));
 %% Iteration
 for n = 1:length(u)
     iter_ctrl_pts = control_pts;
@@ -13,6 +13,6 @@ for n = 1:length(u)
             iter_ctrl_pts(j, :) = (1-u(n)) * iter_ctrl_pts(j, :) + u(n) * iter_ctrl_pts(j+1, :);
         end
     end
-    b(n) =  iter_ctrl_pts(1, :);
+    b(n, :) =  iter_ctrl_pts(1, :);
 end
 
