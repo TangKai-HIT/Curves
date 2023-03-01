@@ -1,5 +1,5 @@
 %demo2: generate a b-sline controlled surface
-addpath(genpath('../'));
+addpath(genpath('../../'));
 %% init params 
 p = 2; q=3;
 u_vec = [0, 0, 0, 0.25, 0.5, 0.75, 1, 1, 1];

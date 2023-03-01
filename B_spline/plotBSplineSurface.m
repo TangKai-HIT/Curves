@@ -3,6 +3,7 @@ function plotBSplineSurface(ax, p, q, u_vec, v_vec, control_pts, u_range, v_rang
 %   input:
 %       u_range, v_range: sampled points on param range
 
+hold(ax,"on");
 % u_samp = linspace(u_range(1), u_range(2), numSamples);
 % v_samp = linspace(v_range(1), v_range(2), numSamples);
 % pts = bsplineSurfaceEval(p, q, u_vec, v_vec, control_pts, u_samp, v_samp);
