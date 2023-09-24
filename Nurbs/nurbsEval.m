@@ -31,5 +31,5 @@ for j=0 : m-1
     pt = pt +  control_pts(j+1, :) .* temp;
 end
 
-pt = pt/sum;
+pt = pt ./ sum;
 end
