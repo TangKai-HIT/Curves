@@ -1,14 +1,14 @@
 function mid = whichSpan(u, p, u_vec)
 %WHICHSPAN helper function: find span index of u
 %   Output:
-%       mid: span index (0~n_knot)
+%       mid: span index (0~n_knot-1)
 
     n_knot = length(u_vec) - 1;
     high = n_knot - p;
     low = p;
 
     if abs(u-u_vec(high+1))<1e-8
-        mid = high;
+        mid = high-1;
     else
         mid = floor((low+high)/2);
 

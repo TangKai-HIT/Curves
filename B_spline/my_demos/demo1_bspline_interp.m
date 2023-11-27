@@ -15,3 +15,8 @@ endCond = [-3; 0];
 [ctrl_pts5, u_vec5] = get_bspline_interp1(time, waypoints, 5, initCond, endCond);
 
 %% Plot B-spline
+figure()
+plotBSpline_1D(gca, ctrl_pts4, 4, u_vec4);
+
+figure()
+plotBSpline_1D(gca, ctrl_pts5, 5, u_vec5);
